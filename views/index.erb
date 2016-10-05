@@ -1,0 +1,13 @@
+<div class="row">
+
+<% @product.each do |b| %>
+<div class="col-md-3 col-sm-4 col-xs-5 catalog">
+	<img src="<%= b.path_to_image %>">
+	<p class="title"><%= b.title %></p>
+	<p>Автор: <%= b.author %><br/>
+	Тематика: <%= b.subject %></p>
+	<div><button class="btn btn-xs btn-success" onclick="add_to_cart(<%= b.id %>)">Купить за <%= b.price %> руб.</button></div>
+</div>
+<% end %>
+
+</div>

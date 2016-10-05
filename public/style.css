@@ -1,0 +1,44 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	padding-top: 80px;
+	padding-bottom: 20px;
+	margin-bottom: 60px;
+}
+h1, h2, h3 {
+  margin-top: 0px;
+}
+.container {
+	width: auto;
+  max-width: 1000px;
+  padding: 0 15px;
+}
+.navbar {
+	margin-bottom: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.catalog {
+  margin-bottom: 30px;
+}
+.catalog img {
+  width: auto;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+input#order_button {
+  min-width: 120px;
+}
